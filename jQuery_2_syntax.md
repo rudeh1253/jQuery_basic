@@ -18,6 +18,9 @@ $(document).ready(fucntion() {
 ### Selector
 jQuery Selector는 HTML element를 선택할 때 사용된다. HTML element를 선택하는 문법은 CSS에서 HTML element를 명시할 때 따르는 룰과 같다.
 - HTML element 이름: 아무런 기호 없이 tag 이름만
+```javascript
+#("div")
+```
 - Element ID: HTML tag에 id attribute에 설정된 id로 접근
 ```javascript
 $("#element-id")
@@ -63,7 +66,7 @@ jQuery selector는 $로 시작하고 () 안에 selector를 명시한다. $()는 
 <html>
 <head>
 <title>The jQuery Example</title>
-<script src="https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/jquery/jquery-3.6.0.js"></script>
 <script>
    $(document).ready(function() {
       $("#foo").css("background-color", "yellow");
@@ -85,7 +88,7 @@ jQuery selector는 $로 시작하고 () 안에 selector를 명시한다. $()는 
 <html>
 <head>
 <title>The jQuery Example</title>
-<script src = "https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"></script>
+<script src = "https://code.jquery.com/jquery/jquery-3.6.0.js"></script>
 <script>
    $(document).ready(function() {
       $(".foo").css("background-color", "yellow");

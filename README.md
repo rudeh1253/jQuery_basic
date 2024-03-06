@@ -5,3 +5,6 @@
 5. [DOM](jQuery_5_dom.md)
 6. [Manipulate Elements](jQuery_6_manipulate_elements.md)
 7. [DOM Traversal](jQuery_7_traversal.md)
+8. [AJAX](jQuery_8_ajax.md)
+
+튜토리얼 사이트: [https://www.tutorialspoint.com/jquery/index.htm](https://www.tutorialspoint.com/jquery/index.htm)

@@ -7,7 +7,7 @@ jQuery에서 ```attr()``` 메소드로 HTML element의 attribute를 가져와서
 <html>
 <head>
 <title>The jQuery Example</title>
-<script src="https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/jquery/jquery-3.6.0.js"></script>
 <script>
    $(document).ready(function() {
       $("button").click(function(){
@@ -59,6 +59,8 @@ HTML element에 커스텀 attribute를 부여할 수 있다. 이와 같은 attir
 ```html
 <img data-copyright="Tutorials Point" id="imageid" src="image.gif" alt="Image"/>
 ```
+
+커스텀 attribute는 standard attribute와는 달리 element에 특정한 기능을 부여하지 않지만, element에 커스텀 데이터를 세팅해 줄 수 있다. 세팅된 데이터를 서버에 전송하는 등 데이터를 가지고 추가적인 로직을 수행할 수 있다.
 
 ### 커스텀 데이터 attribute 세팅
 jQuery의 ```data(name, value)``` 메소드는 커스텀 attribute에 값을 세팅하는 데 사용된다.
